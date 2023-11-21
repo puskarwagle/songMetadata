@@ -1,0 +1,16 @@
+{
+  "name": "lyrics",
+  "version": "1.0.0",
+  "description": "This app hopes to automatically write metadata for your mp3 files",
+  "main": "script.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "puskarwagle",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "music-metadata": "^7.14.0"
+  }
+}
